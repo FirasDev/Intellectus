@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tn.esprit.intellectus.fragment.StudentButtons">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/emblem_library"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/calendar"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn1" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/apple_festival_app_map"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn2" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/home"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn3" />
+
+        <ImageButton
+            android:id="@+id/button6"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/chat" />
+
+    </LinearLayout>
+</FrameLayout>

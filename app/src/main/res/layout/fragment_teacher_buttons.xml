@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tn.esprit.intellectus.fragment.TeacherButtons">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/ic_time_table" />
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/ic_profile1"
+
+            />
+
+        <ImageButton
+            android:id="@+id/button8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/ic_profile2"
+
+            />
+
+        <ImageButton
+            android:id="@+id/button6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/chat" />
+
+        <ImageButton
+            android:id="@+id/button7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="26dp"
+            android:background="@drawable/ic_profile" />
+
+    </LinearLayout>
+
+</FrameLayout>

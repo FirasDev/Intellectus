@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/colorBlue"
+        android:textSize="24sp"
+        app:fontFamily="@font/sfbold" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        app:fontFamily="@font/sfbold"
+        android:hint="Nom de l'administrateur"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtLastname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        app:fontFamily="@font/sfbold"
+        android:hint="Prenom de l'administrateur"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnfinish"
+        android:layout_width="162sp"
+        android:layout_height="52sp"
+        android:layout_below="@+id/txtLastname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/sfmedium"
+        android:text="Enregistrer"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp" />
+
+</RelativeLayout>

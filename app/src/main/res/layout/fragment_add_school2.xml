@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="match_parent">
+
+
+
+        <EditText
+        android:id="@+id/txtphone1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:fontFamily="@font/sfbold"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp"
+        android:hint="Numéro de télephone 1"
+        android:layout_below="@+id/txtpostal_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:inputType="phone" />
+
+        <EditText
+        android:id="@+id/txtphone2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:fontFamily="@font/sfbold"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp"
+        android:hint="Numéro de télephone 2"
+        android:layout_below="@+id/txtphone1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:inputType="phone" />
+
+        <EditText
+        android:id="@+id/txtfax"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:fontFamily="@font/sfbold"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp"
+        android:hint="Numéro de Fax"
+        android:layout_below="@+id/txtphone2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:inputType="phone" />
+
+
+
+    <LinearLayout
+        android:id="@+id/uploader_area"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/txtfax"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selectionnez le Logo"
+            android:textColor="@color/colorBlue"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:civ_border_width="4dp"
+            app:civ_border_color="#FFFFFF"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtFacebook"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:fontFamily="@font/sfbold"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp"
+        android:hint="Lien page Facebook"
+        android:layout_below="@+id/uploader_area"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/txtDirecteur"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:fontFamily="@font/sfbold"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp"
+        android:hint="Nom du directeur"
+        android:layout_below="@+id/txtFacebook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/suiv2"
+        android:layout_width="162sp"
+        android:layout_height="52sp"
+        android:layout_below="@+id/txtDirecteur"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/sfmedium"
+        android:onClick="goToLogin"
+        android:text="Suivant"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp" />
+
+
+
+
+</RelativeLayout>

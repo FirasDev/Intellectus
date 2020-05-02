@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="276dp"
+        android:layout_height="406dp"
+        android:id="@+id/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/splash"/>
+
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/input_field"
+        app:layout_constraintBottom_toBottomOf="@id/logo"
+        android:ems="10"
+        android:fontFamily="@font/sfbold"
+        android:hint="Email"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:fontFamily="@font/sfbold"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edEmail"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="162sp"
+        android:layout_height="52sp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/sfmedium"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPassword" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

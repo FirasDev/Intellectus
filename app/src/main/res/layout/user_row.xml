@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/moreDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/post_rec"
+        android:layout_marginBottom="5dp"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgUser"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_profile2"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorBlue"
+                android:layout_weight="1"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/txtUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sfmedium"
+                    android:text="Firas Ben Mbarek "
+                    android:textColor="@color/colorblack"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/del"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:fabCustomSize="40dp"
+                app:backgroundTint="@color/colorRed"
+                android:layout_gravity="end"
+                android:src="@android:drawable/ic_menu_delete" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:fontFamily="@font/sfthin"
+                android:text="date"
+                android:textColor="@color/colorblack" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfthin"
+            android:gravity="end"
+            android:textColor="@color/colorblack"
+            android:textSize="16sp"
+            android:textFontWeight="600"
+
+            android:layout_marginBottom="10dp"
+            android:text="text where" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".tn.esprit.intellectus.fragment.AffectationEnsClasse">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/nomclasse"
+            android:layout_width="282dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="88dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:hint="Nom classe"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ens"
+            android:layout_width="282dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="96dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:hint="Enseignant e-mail"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nomclasse" />
+
+        <Button
+            android:id="@+id/ajouter"
+            android:layout_width="144dp"
+            android:layout_height="74dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginRight="132dp"
+            android:layout_marginBottom="56dp"
+            android:background="@drawable/button"
+            android:text="Ajouter"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

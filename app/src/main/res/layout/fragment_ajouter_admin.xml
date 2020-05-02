@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".tn.esprit.intellectus.fragment.AjouterAdmin">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/prenomA"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:hint="Prenom"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/nomA"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:hint="Nom"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/prenomA"
+         />
+
+        <EditText
+            android:id="@+id/mailA"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nomA"/>
+
+        <EditText
+            android:id="@+id/passwordA"
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:hint="Mot de passe"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mailA" />
+
+        <Button
+            android:id="@+id/ajouterA"
+            android:layout_width="161dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginRight="132dp"
+            android:background="@drawable/button"
+            android:text="Ajouter"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordA" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
