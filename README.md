@@ -1,6 +1,6 @@
 # Intellectus - Android App [![Build Status](https://travis-ci.org/wallabag/android-app.svg?branch=master)](https://travis-ci.org/wallabag/android-app)
 
-<img src="/readme/wallabag logo.png" align="left"
+<img src="https://lh3.googleusercontent.com/ruDAxcWKY28tfBOecf4uc-joZhsUa9rrzOi56PKmw6QakpAszxRYLZqLnFRiAtlDOhg=s360" align="left"
 width="200" hspace="10" vspace="10">
 
 A native Android application for school management.  
