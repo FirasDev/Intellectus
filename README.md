@@ -42,7 +42,7 @@ The android app lets you:
 
 ## Screenshots
 
-[<img src="https://raw.githubusercontent.com/FirasDev/my-portfolio/master/images/crQMPSr.png?token=ABW3UFMVZA2V2LYUHEIAVAC6WZGVA" align="left"
+[<img src="https://lh3.googleusercontent.com/bJUaOx2jNDbQ_5lYmh10KmWvQzu8ypj0Pbf1f_lE4CEqYIPSK78u8N9EmVqXc0ThB8U=w3072-h1500" align="left"
 width="200"
     hspace="10" vspace="10">](/readme/Wallabag%20Reading%20List.png)
 
